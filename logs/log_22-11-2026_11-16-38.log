@@ -1,0 +1,34 @@
+2026-11-22 11:16:44,879 - INFO - test_sauce_demo - * Iniciando prueba del carrito con el login
+2026-11-22 11:16:47,646 - INFO - test_sauce_demo - Ingreso exitoso
+2026-11-22 11:16:48,099 - INFO - test_sauce_demo - Se agrega un producto al carrito
+2026-11-22 11:16:48,135 - INFO - test_sauce_demo - Comprobación de agregado al carrito exitoso
+2026-11-22 11:16:48,272 - INFO - test_sauce_demo - Ingreso al carrito
+2026-11-22 11:16:48,321 - INFO - test_sauce_demo - Obtención del nombre del producto agregado al carrito exitoso
+2026-11-22 11:16:48,352 - INFO - test_sauce_demo - Obtención del precio del producto agregado al carrito exitoso
+2026-11-22 11:16:52,855 - INFO - test_sauce_demo - * Iniciando la prueba del inventario
+2026-11-22 11:16:52,855 - INFO - test_sauce_demo - Ingresando a la página web
+2026-11-22 11:16:53,921 - INFO - test_sauce_demo - Ingresando  credenciales para iniciar sesión
+2026-11-22 11:16:54,647 - INFO - test_sauce_demo - Sesión iniciada correctamente
+2026-11-22 11:16:54,881 - INFO - test_sauce_demo - Se verificó que el título del inventario sea Products
+2026-11-22 11:16:54,896 - INFO - test_sauce_demo - Se verificó que hay productos en el inventario
+2026-11-22 11:16:54,932 - INFO - test_sauce_demo - Se verificó que el primer producto en el inventario tenga el nombre correcto
+2026-11-22 11:16:54,963 - INFO - test_sauce_demo - Se verificó que el primer producto en el inventario tenga el precio correcto
+2026-11-22 11:16:54,994 - INFO - test_sauce_demo - Se verificó que el inventario tenga un menu
+2026-11-22 11:16:55,025 - INFO - test_sauce_demo - Se verificó que el inventario tenga un carrito
+2026-11-22 11:16:55,041 - INFO - test_sauce_demo - Se verificó que el inventario tenga un filtro
+2026-11-22 11:16:58,897 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-22 11:16:59,862 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-22 11:17:00,577 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-22 11:17:00,741 - INFO - test_sauce_demo - Ingreso exitoso
+2026-11-22 11:17:05,206 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-22 11:17:06,239 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-22 11:17:06,886 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-22 11:17:06,924 - INFO - test_sauce_demo - Prueba de mensaje de error válida
+2026-11-22 11:17:11,013 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-22 11:17:11,804 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-22 11:17:12,439 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-22 11:17:12,476 - INFO - test_sauce_demo - Prueba de mensaje de error válida
+2026-11-22 11:17:16,634 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-22 11:17:17,833 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-22 11:17:18,441 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-22 11:17:18,481 - INFO - test_sauce_demo - Prueba de mensaje de error válida

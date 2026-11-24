@@ -1,0 +1,5 @@
+usuario,contrasena,tipo_usuario
+standard_user,secret_sauce,correcto
+Nacho,secret_sauce,error
+standard_user,123456,error
+Nacho,123456,error

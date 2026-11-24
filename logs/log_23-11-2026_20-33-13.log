@@ -1,0 +1,42 @@
+2026-11-23 20:33:15,357 - INFO - test_sauce_demo - * Ingresando a la pag. https://reqres.in/api/users/2 para testeo de API
+2026-11-23 20:33:15,357 - INFO - test_sauce_demo - Pasa test de obtener usuario
+2026-11-23 20:33:16,382 - INFO - test_sauce_demo - * Ingresando a la pag. https://reqres.in/api/users/2 para testeo de API
+2026-11-23 20:33:16,382 - INFO - test_sauce_demo - Pasa test de creación de usuario
+2026-11-23 20:33:17,162 - INFO - test_sauce_demo - * Ingresando a la pag. https://reqres.in/api/users/2 para testeo de API
+2026-11-23 20:33:17,162 - INFO - test_sauce_demo - Pasa test de eliminación de usuario
+2026-11-23 20:33:18,165 - INFO - test_sauce_demo - * Ingresando a la pag. https://reqres.in/api/users/2 para testeo de API
+2026-11-23 20:33:18,165 - INFO - test_sauce_demo - Pasa test de obtención usuario inexistente
+2026-11-23 20:33:19,874 - INFO - test_sauce_demo - * Iniciando prueba del carrito con el login
+2026-11-23 20:33:21,463 - INFO - test_sauce_demo - Ingreso exitoso
+2026-11-23 20:33:21,796 - INFO - test_sauce_demo - Se agrega un producto al carrito
+2026-11-23 20:33:21,839 - INFO - test_sauce_demo - Comprobación de agregado al carrito exitoso
+2026-11-23 20:33:21,981 - INFO - test_sauce_demo - Ingreso al carrito
+2026-11-23 20:33:22,008 - INFO - test_sauce_demo - Obtención del nombre del producto agregado al carrito exitoso
+2026-11-23 20:33:22,039 - INFO - test_sauce_demo - Obtención del precio del producto agregado al carrito exitoso
+2026-11-23 20:33:25,458 - INFO - test_sauce_demo - * Iniciando la prueba del inventario
+2026-11-23 20:33:25,458 - INFO - test_sauce_demo - Ingresando a la página web
+2026-11-23 20:33:26,173 - INFO - test_sauce_demo - Ingresando  credenciales para iniciar sesión
+2026-11-23 20:33:26,799 - INFO - test_sauce_demo - Sesión iniciada correctamente
+2026-11-23 20:33:27,018 - INFO - test_sauce_demo - Se verificó que el título del inventario sea Products
+2026-11-23 20:33:27,041 - INFO - test_sauce_demo - Se verificó que hay productos en el inventario
+2026-11-23 20:33:27,070 - INFO - test_sauce_demo - Se verificó que el primer producto en el inventario tenga el nombre correcto
+2026-11-23 20:33:27,101 - INFO - test_sauce_demo - Se verificó que el primer producto en el inventario tenga el precio correcto
+2026-11-23 20:33:27,132 - INFO - test_sauce_demo - Se verificó que el inventario tenga un menu
+2026-11-23 20:33:27,148 - INFO - test_sauce_demo - Se verificó que el inventario tenga un carrito
+2026-11-23 20:33:27,179 - INFO - test_sauce_demo - Se verificó que el inventario tenga un filtro
+2026-11-23 20:33:30,535 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-23 20:33:31,118 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-23 20:33:31,787 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-23 20:33:31,932 - INFO - test_sauce_demo - Ingreso exitoso
+2026-11-23 20:33:35,312 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-23 20:33:36,035 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-23 20:33:36,613 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-23 20:33:36,658 - INFO - test_sauce_demo - Prueba de mensaje de error válida
+2026-11-23 20:33:40,022 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-23 20:33:40,647 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-23 20:33:41,239 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-23 20:33:41,283 - INFO - test_sauce_demo - Prueba de mensaje de error válida
+2026-11-23 20:33:44,536 - INFO - test_sauce_demo - * Iniciando prueba de login
+2026-11-23 20:33:45,286 - INFO - test_sauce_demo - Página www.saucedemo.com abierta correctamente
+2026-11-23 20:33:45,826 - INFO - test_sauce_demo - Ingreso de credenciales
+2026-11-23 20:33:45,871 - INFO - test_sauce_demo - Prueba de mensaje de error válida
