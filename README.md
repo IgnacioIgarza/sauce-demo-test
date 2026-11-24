@@ -1,12 +1,13 @@
 # Sauce-demo test
 Entrega para curso de Automatización QA: testando una página E-commerce
-Tecnologias usadas
-Python
-Selenium
-Pytest
-Git
-Github
-Instalacion
+## Tecnologias usadas
+- Python
+- Selenium
+- Pytest
+- Gherkin
+- Git
+- Github
+## Instalacion
 Instalar las dependecias:
 
 ```python
