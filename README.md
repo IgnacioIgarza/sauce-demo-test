@@ -35,8 +35,8 @@ pytest
 behave
 ```
 ## Casos de prueba
-Test de api https://reqres.in/api (usuario existente, crear, eliminar usuario, usuario inexistente)
-Login exitoso de https://www.saucedemo.com
-Login fallidos de https://www.saucedemo.com
-Agregar producto al carrito de https://www.saucedemo.com
-Verificar producto al carrito de https://www.saucedemo.com
+- Test de api https://reqres.in/api (usuario existente, crear, eliminar usuario, usuario inexistente)
+- Login exitoso de https://www.saucedemo.com
+- Login fallidos de https://www.saucedemo.com
+- Agregar producto al carrito de https://www.saucedemo.com
+- Verificar producto al carrito de https://www.saucedemo.com
