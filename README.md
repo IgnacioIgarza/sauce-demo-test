@@ -1,5 +1,5 @@
 # Sauce-demo test
-Entrega para curso de Automatización QA: testando una página E-commerce
+Entrega para el curso de Automatización QA de Talento Tech: testando una página E-commerce
 ## Tecnologias usadas
 - Python
 - Selenium
