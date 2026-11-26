@@ -30,15 +30,16 @@ def pytest_runtest_makereport(item, call): # item es la prueba que se está ejec
     
     if report.when == "call" and report.failed: # si la prueba falló en la etapa de ejecución (call)
         driver = item.funcargs.get("driver") # se obtiene el driver de la prueba que falló
-        carpeta = pathlib.Path("reports/screenshots") # se define la carpeta donde se guardarán las capturas de pantalla
-        carpeta.mkdir(parents=True, exist_ok=True) # se crea la carpeta si no existe
-        nombre_archivo = carpeta / f"{item.name}.png" # se define el nombre del archivo de la captura de pantalla
-        driver.save_screenshot(str(nombre_archivo)) # se guarda la captura de pantalla
+        if driver is not None:
+            carpeta = pathlib.Path("reports/screenshots") # se define la carpeta donde se guardarán las capturas de pantalla
+            carpeta.mkdir(parents=True, exist_ok=True) # se crea la carpeta si no existe
+            nombre_archivo = carpeta / f"{item.name}.png" # se define el nombre del archivo de la captura de pantalla
+            driver.save_screenshot(str(nombre_archivo)) # se guarda la captura de pantalla
         
-        imagen = base64.b64encode(nombre_archivo.read_bytes()).decode("utf-8") # se codifica la imagen en base64 para poder incrustarla en el reporte HTML
-        report.extra = [
-            pytest_html.extras.image(imagen, name="Screenshot", mime_type="image/png", extension="png") # se agrega la imagen al reporte HTML
-        ]
+            imagen = base64.b64encode(nombre_archivo.read_bytes()).decode("utf-8") # se codifica la imagen en base64 para poder incrustarla en el reporte HTML
+            report.extra = [
+                pytest_html.extras.image(imagen, name="Screenshot", mime_type="image/png", extension="png") # se agrega la imagen al reporte HTML
+            ]
         
 
 
